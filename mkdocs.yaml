@@ -1,0 +1,17 @@
+site_name: DataWiz Documentation
+theme:
+  name: material
+  logo: assets/satrac-logo.png
+  favicon: assets/datawiz-logo.png
+  palette:
+    primary: white
+  features:
+    - navigation.sections
+    - toc.integrate # This puts the table of contents on the side for easy scrolling
+
+nav:
+  - Home: index.md
+  - Production Tracking: production_tracking.md
+
+markdown_extensions:
+  - md_in_html
