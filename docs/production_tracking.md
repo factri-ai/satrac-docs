@@ -1,4 +1,4 @@
-# SATRAC Production Tracking Module User Guide
+# Production Tracking Module User Guide
 
 **Date:** 22-09-2025  
 **Contact:** support@factri.ai
@@ -6,14 +6,7 @@
 ---
 
 ## 1. Introduction
-This document outlines the guidelines for using the DataWiz application in the Bangalore and Chennai plants for the Production Tracking use case. The application has been optimized to improve user experience and data accuracy.
-
-### Key Improvements over Previous Version
-* **Focused tracking:** Fewer overall clicks are required to make confirmations.
-* **KPI Visibility:** Order-level production tracking KPI calculations are surfaced for analysis.
-* **Better UI:** Includes a quick plant filter, order search, improved QR code printing, and order status tabs.
-* **Platform Support:** Available for installation on Android, iOS, and Desktop devices.
-* **Integrated Modules:** Includes a Quality checksheets module (currently disabled).
+This document outlines the guidelines for using the DataWiz application in the Bangalore and Chennai plants for the Production Tracking use case. The application is optimized to improve user experience and data accuracy.
 
 ---
 
@@ -34,8 +27,9 @@ Using the mobile app is recommended for making work order confirmations.
 
 ## 3. Printing Chassis QR Codes
 To print QR codes for chassis orders released to the Chennai or Bangalore plants:
+
 1. Login to the app on a **Desktop** device.
-2. From the orders table on the landing page, select the **checkboxes** for the required orders.
+2. From the orders table (and FG Orders section) on the landing page, select the **checkboxes** for the required orders.
 3. Use the filter options or increase the "per page" value to select multiple orders.
 4. Select the **‘Print QR’** option to download a PDF containing the unique chassis QR codes.
 
