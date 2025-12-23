@@ -15,6 +15,7 @@ The application URL is [https://satrac-line-tracker.datawiz.app/login](https://s
 
 ### Mobile App Installation
 Using the mobile app is recommended for making work order confirmations.
+
 1. Open the application URL in your mobile browser.
 2. Click on the **settings** button from the top right corner.
 3. Click on the **‘Add to Home Screen’** button.

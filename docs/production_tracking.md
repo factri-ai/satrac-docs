@@ -85,6 +85,7 @@ The following actions can be performed to capture production data:
 
 ### PPC Dashboard
 Click the **‘View PPC Dashboard’** button on the landing page.
+
 * **Production Reports:** Monthly, Weekly, Daily, and Line-wise trends for SFG, Painting, and Finishing stages.
 * **WIP Aging Reports:** Data by stations and aging buckets, provided in both visual and tabular formats.
 * **Sale Order Tracker:** Progress for orders with due dates from the last 31 days to the next 31 days.
