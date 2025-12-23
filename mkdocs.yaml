@@ -10,7 +10,7 @@ theme:
     - toc.integrate # This puts the table of contents on the side for easy scrolling
 
 nav:
-  - Home: index.md
+  # - Home: index.md
   - Production Tracking: production_tracking.md
   - Subassembly Tracking: subassembly_tracking.md
   - Line Stoppage: line_stoppage.md

@@ -11,17 +11,22 @@ This document outlines the guidelines for using the DataWiz application in the B
 ---
 
 ## 2. Installation and Login
+
+### Desktop Login
 The application URL is [https://satrac.datawiz.app](https://satrac.datawiz.app). Chrome is the recommended browser.
+
+<iframe src="https://drive.google.com/file/d/1Wv5AyxRQI3ba510egsT8xykDCOwLFSg1/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
 
 ### Mobile App Installation
 Using the mobile app is recommended for making work order confirmations.
+
 1. Open the application URL in your mobile browser.
 2. Click on the **settings** button from the top right corner.
 3. Click on the **‘Add to Home Screen’** button.
 4. Select the **‘Install’** option.
 5. Login using the credentials provided by the DataWiz team.
 
-<iframe src="https://drive.google.com/file/d/1GpjMf19_Orh3-ti4VyBiY0c85fZqPclw/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://drive.google.com/file/d/1aqqISucoafqT0oXPnGAsCL9dVANP27XX/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
 
 ---
 
@@ -32,6 +37,8 @@ To print QR codes for chassis orders released to the Chennai or Bangalore plants
 2. From the orders table (and FG Orders section) on the landing page, select the **checkboxes** for the required orders.
 3. Use the filter options or increase the "per page" value to select multiple orders.
 4. Select the **‘Print QR’** option to download a PDF containing the unique chassis QR codes.
+
+<iframe src="https://drive.google.com/file/d/12ee3Afg5nzglqKpgP4muEgZdcIxQ3apI/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
 
 ---
 
@@ -45,7 +52,7 @@ Scan the printed QR code using the DataWiz mobile app to land directly on the or
 * **All Stages:** Press the **‘View All Stages’** button to access all details of the stages defined for the order.
 * **Documents:** Upload or view existing order documents.
 
-<iframe src="https://drive.google.com/file/d/1GJIhHHEc4MoFrLnwwf_vtrMHRcqRo2nr/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://drive.google.com/file/d/1haiSs9bWlL4LpBPuhpOp2yMh9HL3Tv68/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
 
 ---
 
@@ -58,7 +65,7 @@ The following actions can be performed to capture production data:
     * *Available for: Subassembly, SFG, Painting, and Finishing*.
 * **COMPLETE:** Press when work is finished to capture completion time and input details like line number and supervisor.
 
-<iframe src="https://drive.google.com/file/d/1QYCiMaCYV-gdJLNy_ZlgTHzTPHBm8VUM/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://drive.google.com/file/d/1TGfPjTcYPD_q9hJZa3Q1mHXX2QZlklMf/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
 
 ---
 
@@ -70,7 +77,11 @@ The following actions can be performed to capture production data:
 3. Logs are sorted from most recent to oldest.
 4. Click **‘View Details’** to see any further information entered by the user during that action.
 
-<iframe src="https://drive.google.com/file/d/1yQY3krwE_G-ipAz5iouX0zFavZbGy8Ud/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
+### Desktop View
+<iframe src="https://drive.google.com/file/d/1unhBlNbAEzuj1bnNLZN_hyU9RXMhBcJi/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
+
+### Mobile View
+<iframe src="https://drive.google.com/file/d/1c5jf_4goKuyYesI8ybekcw-w5uj8dgsn/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
 
 ### PPC Dashboard
 Click the **‘View PPC Dashboard’** button on the landing page.
@@ -78,5 +89,3 @@ Click the **‘View PPC Dashboard’** button on the landing page.
 * **WIP Aging Reports:** Data by stations and aging buckets, provided in both visual and tabular formats.
 * **Sale Order Tracker:** Progress for orders with due dates from the last 31 days to the next 31 days.
 * **Plant Filter:** Access Chennai and Bangalore plant data separately or together.
-
-<iframe src="https://drive.google.com/file/d/1yLSbw0j2IIUgzS7Zi3K9wUl_4mr1LrCq/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
