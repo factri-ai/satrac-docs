@@ -22,6 +22,8 @@ Using the mobile app is recommended for making work order confirmations.
 4. Select the **‘Install’** option.
 5. Login using the credentials provided by the DataWiz team.
 
+<iframe src="https://drive.google.com/file/d/1nVzgkS09hIkZZLDTU-4ArpIPMaqjloRR/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
+
 ---
 
 ## 3. Scan the Line QR Code
@@ -43,17 +45,23 @@ The Line QR Codes will be provided by the DataWiz team
 3. After entering all the stoppage related details, press the Report Stoppage button.
 4. This will report the stoppage, and the escalation email chain will be triggere. Please refer the notification section for more details.
 
+<iframe src="https://drive.google.com/file/d/1D8yhVzK606o5qJSNggmwMp6EmDpoRfyw/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
+
 ### b. Discuss Over the Stoppage Issue
 
 1. Your team can dicuss over the specific issue directly at the stoppage details page itsel.
 2. Click on the **Message** tab from the top section. It will open a chat window, where team members can send their messages, tag the relevant users.
 3. Real-time notifications will be sent to the tagged users.
 
+<iframe src="https://drive.google.com/file/d/1tUgAgLtK4yqdOXwQBiU1atCnzq4vNVJD/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
+
 ### c. Resolve a Stoppage
 1. At the **Lines** page, select the stoppage that needs to be resolved.
 2. Click on the **Resolve Stoppage** button. Enter the resolution related notes and change the resolution time i.e **End Time** if required.
 3. Click on the Resolve button.
 4. This will report the stoppage resolution and the resolution related mail will be sent to all the relevant groups.
+
+<iframe src="https://drive.google.com/file/d/1eF4a7UW7boK3CE3uWfpFb4giPuOBv-ue/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
 
 ---
 
@@ -63,6 +71,10 @@ The Line QR Codes will be provided by the DataWiz team
 2. Based on the plant assess, the user will see all the past stoppages.
 3. Use the provided filter options to look for the stoppages required for analysis.
 
+<iframe src="https://drive.google.com/file/d/1b538XADdHfsUNVQj5KXlOTTE3yJbUcfP/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
+
 ---
 
-## 5. Notifications
+## 5. Escalation Notifications
+
+![Escalation Notification Image](/assets/escalation-notification-image.png)

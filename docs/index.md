@@ -9,5 +9,3 @@ Contact: support@factri.ai
 ## [Subassembly Tracking](subassembly_tracking.md)
 ## [Planning & Scheduling](planning_and_scheduling.md)
 ## [Quality Checksheets](quality_checksheets.md)
-## [Line Stoppage](line_stoppage.md)
-## [Contractor Billing](contractor_billing.md)
