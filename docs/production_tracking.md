@@ -90,3 +90,6 @@ Click the **‘View PPC Dashboard’** button on the landing page.
 * **WIP Aging Reports:** Data by stations and aging buckets, provided in both visual and tabular formats.
 * **Sale Order Tracker:** Progress for orders with due dates from the last 31 days to the next 31 days.
 * **Plant Filter:** Access Chennai and Bangalore plant data separately or together.
+
+### Mobile View
+<iframe src="https://drive.google.com/file/d/1T3IU9HzeOmQlIQx6p_TpbtcpS45wBO6D/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
