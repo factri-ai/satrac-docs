@@ -19,7 +19,7 @@
     
     
       
-        <title>Contractor billing - DataWiz Documentation</title>
+        <title>Contractor Billing Module - User Guide - DataWiz Documentation</title>
       
     
     
@@ -67,6 +67,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#contractor-billing-module-user-guide" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -98,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Contractor billing
+              Contractor Billing Module - User Guide
             
           </span>
         </div>
@@ -313,9 +318,278 @@
 
 
 
-  <h1>Contractor billing</h1>
-
-<p>comming soon ...</p>
+<h1 id="contractor-billing-module-user-guide">Contractor Billing Module - User Guide</h1>
+<p><strong>Date:</strong> 31-12-2025<br />
+<strong>Contact:</strong> support@factri.ai</p>
+<hr />
+<h3 id="what-is-the-contractor-billing-module">What is the Contractor Billing Module?</h3>
+<p>The Contractor Billing Module helps you track payments to external contractors who perform work on the production lines. When production work is completed and confirmed, the system automatically calculates how much to pay each contractor based on your pre-configured rates.</p>
+<hr />
+<h3 id="how-does-billing-work">How Does Billing Work?</h3>
+<p>Automatic Billing</p>
+<p>You don't need to manually create billing entries. The system does it automatically when:</p>
+<ol>
+<li>An operator confirms that work is complete on a production line</li>
+<li>The system checks which contractors are assigned to that line</li>
+<li>Billing entries are created based on your configured rates</li>
+</ol>
+<h3 id="how-is-the-billing-amount-decided">How is the Billing Amount Decided?</h3>
+<p>The billing amount comes directly from the Work Code you set up. Each Work Code has a fixed price, and this price is used whenever that type of work is confirmed.</p>
+<p><em>Example: If "Casting Inspection" Work Code has a price of ₹1,250, every time casting inspection work is confirmed, the contractor receives ₹1,250.</em></p>
+<h2 id="key-terms-explained">Key Terms Explained</h2>
+<h3 id="part-family">Part Family</h3>
+<p><strong>What it is:</strong> A category that groups similar types of materials together for billing purposes.</p>
+<p><strong>Why it matters:</strong>
+- Helps organize which billing rates apply to which materials
+- Materials in the same Part Family use the same set of Work Codes</p>
+<p><em>Examples: Casting Parts, Machined Components, Assembly Items</em></p>
+<p><strong>Important Rule:</strong> Each material can only belong to ONE Part Family.</p>
+<hr />
+<h3 id="material-family-assignment">Material Family Assignment</h3>
+<p><strong>What it is:</strong> The link between a specific material and its Part Family.</p>
+<p><strong>Why it matters:</strong>
+- Tells the system which Part Family a material belongs to
+- Without this assignment, no billing will be generated for that material</p>
+<p><strong>How to use:</strong> Go to Material Family Assignment and select which Part Family each material belongs to.</p>
+<hr />
+<h3 id="work-code">Work Code</h3>
+<p><strong>What it is:</strong> A specific type of billable work with a set price.</p>
+<p>Key Information in a Work Code:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>What it means</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Work Code</td>
+<td>A unique code to identify this work type</td>
+</tr>
+<tr>
+<td>Job Description</td>
+<td>A clear name for the work being done</td>
+</tr>
+<tr>
+<td>Weight (KG)</td>
+<td>The standard weight for this work (for reference)</td>
+</tr>
+<tr>
+<td>Man Hours</td>
+<td>How many hours this work typically takes (for reference)</td>
+</tr>
+<tr>
+<td>Price</td>
+<td>The amount that will be billed</td>
+</tr>
+<tr>
+<td>Part Family</td>
+<td>Which category of materials this applies to</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Why it matters:</strong> The Price in the Work Code is what gets charged to the contractor's account.</p>
+<p><strong>Important Rule:</strong> Each Work Code must have a unique code name.</p>
+<hr />
+<h3 id="contractor">Contractor</h3>
+<p><strong>What it is:</strong> An external company or individual who performs work and receives payment.</p>
+<p>Key Information for a Contractor:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>What it means</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Code</td>
+<td>A unique identifier for the contractor</td>
+</tr>
+<tr>
+<td>Name</td>
+<td>The contractor's full name or company name</td>
+</tr>
+<tr>
+<td>Contact Phone</td>
+<td>Phone number (optional)</td>
+</tr>
+<tr>
+<td>Contact Email</td>
+<td>Email address (optional)</td>
+</tr>
+<tr>
+<td>Plant</td>
+<td>Which plant this contractor works at (optional)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Important Rule:</strong> Each contractor must have a unique code.</p>
+<hr />
+<h3 id="production-line">Production Line</h3>
+<p><strong>What it is:</strong> A physical location in your facility where work is performed.</p>
+<p><strong>Why it matters:</strong> Billing is based on which line the work was done on. Different lines can have different contractors assigned.</p>
+<hr />
+<h3 id="line-work-code-contractor-mapping">Line-Work Code-Contractor Mapping</h3>
+<p><strong>What it is:</strong> The main configuration that connects everything together. It answers: "Which contractor gets paid for which type of work on which line?"</p>
+<p><strong>How it works:</strong></p>
+<table>
+<thead>
+<tr>
+<th>You set up...</th>
+<th>To define...</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Line</td>
+<td>Where the work happens</td>
+</tr>
+<tr>
+<td>Work Code</td>
+<td>What type of work (and at what price)</td>
+</tr>
+<tr>
+<td>Contractor</td>
+<td>Who gets paid</td>
+</tr>
+</tbody>
+</table>
+<p>Example:
+- Line: "Assembly Line 1"
+- Work Code: "Final Inspection" (₹500)
+- Contractor: "ABC Quality Services"</p>
+<p><em>This means: When final inspection is confirmed on Assembly Line 1, ABC Quality Services gets billed ₹500.</em></p>
+<p><strong>Important Rules:</strong>
+- You cannot have duplicate mappings (same line + same work code + same contractor)
+- One contractor can be assigned to multiple lines
+- One line can have multiple contractors (for different types of work)</p>
+<hr />
+<h3 id="billing-entry">Billing Entry</h3>
+<p><strong>What it is:</strong> A record of money owed to a contractor for completed work.</p>
+<p>What it contains:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>What it means</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Contractor</td>
+<td>Who is being paid</td>
+</tr>
+<tr>
+<td>Work Code</td>
+<td>What work was done</td>
+</tr>
+<tr>
+<td>Billing Amount</td>
+<td>How much is owed</td>
+</tr>
+<tr>
+<td>Billing Date</td>
+<td>When the work was completed</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Important:</strong> Billing entries are created automatically. You do not create them manually.</p>
+<hr />
+<h3 id="how-everything-connects">How Everything Connects</h3>
+<p>Step 1: SET UP (Do this once)</p>
+<pre><code>Create Part Families
+        ↓
+Assign Materials to Part Families
+        ↓
+Create Work Codes with Prices
+        ↓
+Create Contractors
+        ↓
+Create Mappings (Line + Work Code + Contractor)
+</code></pre>
+<p>Step 2: DAILY OPERATIONS (Happens automatically)</p>
+<pre><code>Operator confirms work on a line
+        ↓
+System finds the material's Part Family
+        ↓
+System finds matching mappings
+        ↓
+Billing entries are created automatically
+</code></pre>
+<hr />
+<h2 id="reports-available">Reports Available</h2>
+<table>
+<thead>
+<tr>
+<th>Report</th>
+<th>What it shows</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Contractor Summary</td>
+<td>Total billing for each contractor over a date range</td>
+</tr>
+<tr>
+<td>Monthly Summary</td>
+<td>Month-by-month breakdown of all billing</td>
+</tr>
+<tr>
+<td>Audit Log</td>
+<td>History of all changes made to billing records</td>
+</tr>
+</tbody>
+</table>
+<h3 id="exporting-data">Exporting Data</h3>
+<p>You can download billing data in two formats:
+- Excel (.xlsx) - Opens in Microsoft Excel or Google Sheets
+- CSV (.csv) - Opens in any spreadsheet application</p>
+<p>Exports include all related information: contractor details, work performed, materials, and production line.</p>
+<hr />
+<h2 id="change-tracking">Change Tracking</h2>
+<p>The system keeps a complete record of all changes:
+- Who made the change
+- When it was made
+- What was changed (old value and new value)</p>
+<p>This applies to:
+- Work Code prices
+- Contractor assignments
+- Billing entries</p>
+<hr />
+<h2 id="quick-reference-important-rules">Quick Reference: Important Rules</h2>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Why it matters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Each material can only be in ONE Part Family</td>
+<td>Ensures clear billing categorization</td>
+</tr>
+<tr>
+<td>Each Work Code must be unique</td>
+<td>Prevents confusion in billing</td>
+</tr>
+<tr>
+<td>Each Contractor Code must be unique</td>
+<td>Ensures accurate payment tracking</td>
+</tr>
+<tr>
+<td>Line + Work Code + Contractor combination must be unique</td>
+<td>Prevents duplicate billing</td>
+</tr>
+<tr>
+<td>Changing a Work Code price only affects future billing</td>
+<td>Past billing entries keep their original amount</td>
+</tr>
+</tbody>
+</table>
+<hr />
 
 
 
