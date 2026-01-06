@@ -15,7 +15,7 @@ nav:
   - Subassembly Tracking: subassembly_tracking.md
   - Line Stoppage: line_stoppage.md
   - Quality Checksheets: quality_checksheets.md
-  # - Contractor Billing: contractor_billing.md
+  - Contractor Billing: contractor_billing.md
   # - Planning & Scheduling: planning_and_scheduling.md
 
 markdown_extensions:
