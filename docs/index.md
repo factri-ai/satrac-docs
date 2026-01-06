@@ -9,3 +9,4 @@ Contact: support@factri.ai
 ## [Subassembly Tracking](subassembly_tracking.md)
 ## [Planning & Scheduling](planning_and_scheduling.md)
 ## [Quality Checksheets](quality_checksheets.md)
+## [Contractor Billing](contractor_billing.md)
