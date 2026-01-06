@@ -26,6 +26,13 @@ The billing amount comes directly from the Work Code you set up. Each Work Code 
 
 *Example: If "Casting Inspection" Work Code has a price of ₹1,250, every time casting inspection work is confirmed, the contractor receives ₹1,250.*
 
+---
+
+## Bill Generation Demo
+
+<iframe src="https://drive.google.com/file/d/1coq40ls827i8i8owlf8sctjbTgygF61_/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
+
+---
 ## Key Terms Explained
 
 ### Part Family
