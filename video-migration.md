@@ -71,6 +71,6 @@ Replace Google Drive iframes:
 ### subassembly_tracking_v2.md (added 2026-08-18)
 | Google Drive ID | New Filename | Description |
 |-----------------|--------------|-------------|
-| PENDING | subassembly-tracking-v2-01.mp4 | Scan standing QR + Move to Stock confirmation (SO/SF linkage, photo, confirm) |
-| PENDING | subassembly-tracking-v2-02.mp4 | Chassis search + Consumed Sub-Assemblies view |
-| PENDING | subassembly-tracking-v2-03.mp4 | PPC Dashboard Sub Assembly tab: trend + daily report |
+| 1Zm2IpsKdppVmBa7-JJg8sd6Kn_dVEQcy | subassembly-tracking-v2-01.mp4 | Scan standing QR + Move to Stock confirmation (SO/SF linkage, photo, confirm) |
+| 1Of5BLDp7gHh8VT-I0gp61COA0N-4b6lI | subassembly-tracking-v2-02.mp4 | Chassis search + Consumed Sub-Assemblies view |
+| 1nfMer4sm1p-HXFq5ChGfNCAIzpj8wprb | subassembly-tracking-v2-03.mp4 | PPC Dashboard Sub Assembly tab: trend + daily report |

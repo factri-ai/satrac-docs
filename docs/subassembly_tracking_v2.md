@@ -39,8 +39,7 @@ Fill the confirmation form:
 
 To record several of the same sub-assembly one after another, scan the same QR again and repeat.
 
-<!-- VIDEO-ID-PENDING: subassembly-tracking-v2-01.mp4 -->
-<iframe src="https://drive.google.com/file/d/VIDEO-ID-PENDING-01/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://drive.google.com/file/d/1Zm2IpsKdppVmBa7-JJg8sd6Kn_dVEQcy/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
 
 ---
 
@@ -52,8 +51,7 @@ To check which sub-assemblies are already built for a chassis:
 2. Open the chassis order (the entry that shows the SF number, for example *2026SF53674C || 2526006529-1*).
 3. Open the **Consumed Sub-Assemblies** view. It lists every sub-assembly already built for that chassis with its **SO Number**, **Qty** and **Confirmed At** time. A sub-assembly confirmed a moment ago appears here immediately.
 
-<!-- VIDEO-ID-PENDING: subassembly-tracking-v2-02.mp4 -->
-<iframe src="https://drive.google.com/file/d/VIDEO-ID-PENDING-02/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://drive.google.com/file/d/1Of5BLDp7gHh8VT-I0gp61COA0N-4b6lI/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
 
 ---
 
@@ -66,8 +64,7 @@ On a desktop browser:
 3. **Daily Sub Assembly Report** lists every confirmation with Report Date, Shift, Time, Chassis No / WO, FG No., SO Number, SF Number and Description. Click a date on the trend chart to filter the report to that day.
 4. Use the column filters or the search box to narrow the list, and **'Export XLSX'** to download it.
 
-<!-- VIDEO-ID-PENDING: subassembly-tracking-v2-03.mp4 -->
-<iframe src="https://drive.google.com/file/d/VIDEO-ID-PENDING-03/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://drive.google.com/file/d/1nfMer4sm1p-HXFq5ChGfNCAIzpj8wprb/preview" width="711" height="400" allow="autoplay; fullscreen" allowfullscreen="true" frameborder="0"></iframe>
 
 ---
 
